@@ -3,7 +3,11 @@
 [![CircleCI](https://circleci.com/gh/nerves-project/nerves_system_rpi5.svg?style=svg)](https://circleci.com/gh/nerves-project/nerves_system_rpi5)
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi5.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi5)
 
-This is the base Nerves System configuration for the Raspberry Pi 5 Model B.
+This is a custom Nerves System configuration for the Raspberry Pi 5 Model B. The updates include:
+* Add support for `ext4` file system.
+* Add kernel support for GPT partitions.
+* Install `libsrtp` and `ffmpeg`.
+* Install the following linux utilities: `lsblk`, `fdisk`, `sgdisk` and `uname`. 
 
 ![Raspberry Pi 5 image](assets/images/RaspberryPi_5B.svg)
 <br><sup>[Efa / Wikimedia Commons / CC BY-SA

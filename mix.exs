@@ -100,6 +100,7 @@ defmodule ExNVRSystemRpi5.MixProject do
 
   defp package_files do
     [
+      "busybox_defconfig",
       "fwup_include",
       "rootfs_overlay",
       "CHANGELOG.md",

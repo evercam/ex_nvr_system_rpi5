@@ -12,6 +12,8 @@ follows:
    releases, and Linux kernel updates. They're also made to fix bugs and add
    features to the build infrastructure.
 
+## v0.4.2
+
 ## v0.4.1
 
 This is a security/bug fix update.

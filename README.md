@@ -19,7 +19,7 @@ This is a custom Nerves System configuration for the Raspberry Pi 5 Model B. The
 | CPU                  | 2.4 GHz quad-core Cortex-A76     |
 | Memory               | 4 GB or 8 GB DRAM                |
 | Storage              | MicroSD                          |
-| Linux kernel         | 6.1 w/ Raspberry Pi patches      |
+| Linux kernel         | 6.12 w/ Raspberry Pi patches     |
 | IEx terminal         | HDMI and USB keyboard (can be changed to UART) |
 | GPIO, I2C, SPI       | Yes - [Elixir Circuits](https://github.com/elixir-circuits) |
 | ADC                  | No                               |

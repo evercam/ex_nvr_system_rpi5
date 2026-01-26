@@ -7,7 +7,7 @@
 This is a custom Nerves System configuration for the Raspberry Pi 5 Model B. The updates include:
 * Add support for `ext4` filesystem and `lvm`.
 * Add kernel support for GPT partitions.
-* Install `libsrtp`, `libx264`, `nginx` and `ffmpeg`.
+* Install `libsrtp` and `nginx`.
 * Install the following linux utilities: `lsblk`, `fdisk`, `sgdisk`, `smartmontools`, `socat` and `uname`. 
 
 ![Raspberry Pi 5 image](assets/images/RaspberryPi_5B.svg)
@@ -151,4 +151,3 @@ take versions of the repositories that have similar commit times.
 The Linux kernel compiled for Nerves is a stripped down version of the default
 Raspberry Pi Linux kernel. This is done to remove unnecessary features, select
 some Nerves-specific features like F2FS and SquashFS support, and to save space.
-

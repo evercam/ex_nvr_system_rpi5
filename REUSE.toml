@@ -11,7 +11,8 @@ path = [
  "REUSE.toml",
  "mix.exs",
  "mix.lock",
- "VERSION"
+ "VERSION",
+ "reComputer-R22-overlay.dtso",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "None"

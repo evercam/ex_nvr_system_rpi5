@@ -10,6 +10,9 @@ This is a custom Nerves System configuration for the Raspberry Pi 5 Model B. The
 * Install `libsrtp` and `nginx`.
 * Install the following linux utilities: `lsblk`, `fdisk`, `sgdisk`, `smartmontools`, `socat` and `uname`. 
 
+*This is the v0 maintenance branch. It is still maintained and is the
+recommended branch for most users. Active development is in the `main` branch.*
+
 ![Raspberry Pi 5 image](assets/images/RaspberryPi_5B.svg)
 <br><sup>[Efa / Wikimedia Commons / CC BY-SA
 4.0](https://en.wikipedia.org/wiki/Raspberry_Pi#/media/File:RaspberryPi_5B_28-08-2024.svg)</sup>
